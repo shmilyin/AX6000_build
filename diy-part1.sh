@@ -44,3 +44,8 @@
 #tar -zxf ./dev.tar.gz
 #chmod +x ./clash*
 #rm -rf ./*.gz
+
+
+# add luci-app-adguardhome
+cd ./package
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
