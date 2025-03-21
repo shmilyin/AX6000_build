@@ -13,7 +13,7 @@ name: redmi-ax6000-immortalwrt-23.05-stock
 on:
   repository_dispatch:
   schedule:
-    - cron: '0 20 * * *'
+    - cron: '0 20 * * 6'
   workflow_dispatch:
     inputs:
       ip:
